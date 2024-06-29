@@ -2,17 +2,20 @@
 body{
 background-color: #f5f5f5;
 	
+	
 }
 .header{
+	display: flex;
 	background-color: #011e29;
 	color: white;
-	text-align: center;
+	justify-content: center;
 }
 .pictorial-news-section{
 	text-align:center;
 	background-color: white;
 	padding: 10px; 
 	width: 300px;
+	height: 900px;
 	border-radius: 10%;
 	overflow: hidden;
 }
@@ -20,7 +23,14 @@ background-color: #f5f5f5;
 	background-color: white;
 	padding: 10px;
 	width: 33%;
+	height: 120px;
+}
 .main{
 	background-color: white;
-	
+	padding: 10px;
+	width: 33%;
+	height: 250px;
+}
+.flex{
+	display: flex;
 }
